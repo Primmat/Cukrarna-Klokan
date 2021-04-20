@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+.ohraniceni {
+    display: block;
+    margin: 0 13%;
+}
+
+/* Záhlaví */
+
+header {
+    padding: 10px;
+    background: #de1f78;
+}
+
+header .titulek {
+    display: inline-block;
+    width: 30%;
+}
+
+header .titulek a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .titulek a:hover {
+    color: #ffffff;
+}
+
+header .menu {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: super;
+}
+
+header .menu nav ul {
+    list-style: none;
+}
+
+header .menu nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+header .menu nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .menu nav ul li a.aktivni {
+    border-bottom: 1px solid #ffffff;
+}
+
+header .menu nav ul li a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Sekce */
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    padding-bottom: 15px;
+    color: #de1f78;
+    font-size: 28px;
+}
+
+section p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+section .leva-sekce {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+
+section .leva-sekce img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+section .leva-sekce p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+section .prava-sekce {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+section .prava-sekce img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Tabulka */
+
+section .tabulka {
+    padding: 50px 0;
+}
+
+section .tabulka table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+section .tabulka table, th, td {
+    border: 1px solid #000000;
+}
+
+/* Galerie */
+
+section .galerie {
+    padding: 50px 0;
+}
+
+section .galerie .obrazek {
+    width: 28%;
+    display: inline-block;
+    margin: 20px;
+}
+
+section .galerie .obrazek a img {
+    width: 100%;
+}
+
+/* Kontakt */
+
+section .kontakt {
+    margin-right: 20px;
+}
+
+section .kontakt input {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    border: 1px solid #de1f78;
+    border-radius: 5px;
+}
+
+section .kontakt input[type="submit"] {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+section .kontakt input[type="submit"]:hover {
+    background-color: #de1f78;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section .kontakt textarea {
+    margin: 10px 0 40px 0;
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    border: 1px solid #de1f78;
+    border-radius: 5px;
+}
+
+section .kontaktni-udaje {
+    margin-left: 20px;
+}
+
+section .kontaktni-udaje p span {
+    color: #de1f78;
+    font-weight: bold;
+}
+
+section .kontaktni-udaje p a {
+    color: #de1f78;
+    text-decoration: none;
+}
+
+section .kontaktni-udaje p a:hover {
+    color: #000000;
+    border-bottom: 1px solid #de1f78;
+}
+
+/* Zápatí */
+
+footer {
+    background: #de1f78;
+    padding: 15px 0;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
